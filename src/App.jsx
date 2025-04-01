@@ -1,7 +1,11 @@
-import './App.css'
+import "./App.css";
+import { RegisterMobileNumber } from "./RegisterMobileNumber";
 
 export const App = () => {
   return (
-    <div><p>Hello Shreyas!!</p></div>
-  )
-}
+    <div>
+      <p>Menu</p>
+      <RegisterMobileNumber />
+    </div>
+  );
+};
