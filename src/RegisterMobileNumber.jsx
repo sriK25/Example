@@ -98,5 +98,6 @@ const useStyles = makeStyles()(() => ({
     display: "flex",
     flexDirection: "column",
     gap: 12,
+    width: "50%",
   },
 }));
